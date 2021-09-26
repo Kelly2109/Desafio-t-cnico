@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cadastro Pessoal</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>Cadastro de Usuários</h1>
+    <form id="register-form" action="">
+      <div class="full-box">
+        <label for="Nome">Nome</label>
+        <input required type="text" name="Nome" id="Nome" placeholder="" 
+      </div>
+      <div class="half-box spacing">
+          <label for="CPF">CPF</label>
+          <input required type="number" name="CPF" id="CPF" placeholder="">
+      </div>
+      <div class="half-box">
+          <label for="RG">RG</label>
+          <input type="text" name="RG" id="RG" placeholder="">
+      </div>
+      <div class="half-box spacing">
+        <label for="Sexo">Sexo</label>
+        <select> Sexo
+        <option value="F">F</option>
+        <option value="M">M</option>
+       </select>    
+    </div>
+      <div class="half-box spacing">
+        <label for="Endereco">Endereço</label>
+        <input required type="text" name="Endereco" id="Endereco" placeholder=""> 
+     </div>
+	<label for="Numero">Número</label>
+        <input required type="number" name="Numero" id="Numero" placeholder=""> 
+      <div>
+	<label for="Bairro">Bairro</label>
+        <input type="text" name="Bairro" id="Bairro" placeholder=""> 
+      </div>
+	<label for="Cidade">Cidade</label>
+        <input type="text" name="Cidade" id="Cidade" placeholder=""> 
+	</div>
+	<label for="Estado">Estado</label>
+        <input type="text" name="Estado" id="Estado" placeholder="">
+	</div>
+	<label for="CEP">CEP</label>
+        <input type="text" name="CEP" id="CEP" placeholder="">	
+	</div>
+	<label for="Telfixo">Telefone Fixo</label>
+        <input type="text" name="Telfixo" id="Telfixo" placeholder="">
+	</div>
+	<label for="Telcelular"> Telefone Celular</label>
+        <input required type="text" name="Telcelular" id="Telcelular" placeholder="">
+      <div class="half-box spacing">
+        <input id="button" type="submit" onclick="funcao1()"  value="Cadastrar">
+        </div>
+        <script>alert("Cadastro efetuado com sucesso!");
+        </script>
+    </form>
+  </div>  
+</body> 
